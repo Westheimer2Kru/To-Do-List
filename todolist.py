@@ -83,8 +83,10 @@ while(exit):
             print_all_tasks(rows)
 
     elif answer == 5:
-        task = input("Enter task:")
-        year, month, day = input("Enter deadline:").split('-')
+        print("Enter task")
+        task = input()
+        print("Enter deadline")
+        year, month, day = input().split('-')
         deadline = date(int(year), int(month), int(day))
         print(deadline)
         new_row = Table(task = task,
