@@ -53,7 +53,7 @@ while(exit):
     print("0) Exit")
     print()
 
-    answer = int(input())
+    answer = int(input("Enter your number:"))
     if answer == 0:
         exit = False
         print()
